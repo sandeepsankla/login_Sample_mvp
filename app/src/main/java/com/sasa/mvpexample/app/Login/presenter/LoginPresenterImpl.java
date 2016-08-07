@@ -16,9 +16,13 @@
  *
  */
 
-package com.sasa.mvpexample.app.Login;
+package com.sasa.mvpexample.app.Login.presenter;
 
 import android.text.TextUtils;
+
+import com.sasa.mvpexample.app.Login.model.LoginInteractor;
+import com.sasa.mvpexample.app.Login.model.LoginInteractorImpl;
+import com.sasa.mvpexample.app.Login.view.LoginView;
 
 public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLoginFinishedListener {
 

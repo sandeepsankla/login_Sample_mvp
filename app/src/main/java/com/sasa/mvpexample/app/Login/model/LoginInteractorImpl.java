@@ -1,4 +1,4 @@
-package com.sasa.mvpexample.app.Login;
+package com.sasa.mvpexample.app.Login.model;
 
 import android.os.Handler;
 

@@ -16,16 +16,18 @@
  *
  */
 
-package com.sasa.mvpexample.app.Login;
+package com.sasa.mvpexample.app.Login.view;
 
-public interface LoginInteractor {
+public interface LoginView {
+    void showProgress();
 
-    interface OnLoginFinishedListener {
-       void onFailure();
+    void hideProgress();
 
-        void onSuccess();
-    }
+    void setUsernameError();
 
-    void login(String username, String password, OnLoginFinishedListener listener);
+    void setPasswordError();
 
+    void ShowSuccessResult();
+
+    void showFailureResult();
 }

@@ -16,7 +16,7 @@
  *
  */
 
-package com.sasa.mvpexample.app.Login;
+package com.sasa.mvpexample.app.Login.view;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -25,6 +25,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.sasa.mvpexample.app.Login.presenter.LoginPresenter;
+import com.sasa.mvpexample.app.Login.presenter.LoginPresenterImpl;
 import com.sasa.mvpexample.app.R;
 
 public class LoginActivity extends Activity implements LoginView, View.OnClickListener {

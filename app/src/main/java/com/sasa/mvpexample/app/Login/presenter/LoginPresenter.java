@@ -16,7 +16,7 @@
  *
  */
 
-package com.sasa.mvpexample.app.Login;
+package com.sasa.mvpexample.app.Login.presenter;
 
 public interface LoginPresenter {
     void validateCredentials(String username, String password);
